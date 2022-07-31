@@ -1,0 +1,24 @@
+1 - 
+Vue Js - 
+Framework
+Light Weight 
+High Performance
+Open Source 
+Initial Release - Feb, 2014
+Can be used with or without NPM
+Vue CLI is command line tool for Vue - used for dev and build process.
+
+2 - 
+Create a Vue Js project using the CLI - Vue create projectname
+
+3 - 
+File and Folder Structure - Done
+
+4 - 
+Passing Props to Components - Done
+
+5 - 
+Events and event handling - using v-on for Event Handling such as Click or Hover - Done
+
+6 - 
+Condition rendering with data object
