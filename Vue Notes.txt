@@ -21,4 +21,108 @@ Passing Props to Components - Done
 Events and event handling - using v-on for Event Handling such as Click or Hover - Done
 
 6 - 
+Directives are instruction for VueJS to do things in a certain way. We have already seen directives such as v-if, v-show, v-else, v-for, v-bind , v-model, v-on, etc.
 Condition rendering with data object
+
+7 - 
+There is no difference between vue-on:click="()=>doSomething()" and @click="()=>doSomething()"
+@ is a shorthand for vue-on
+For rendering list of item we use .map in React, here we use v-for directive
+
+8 - 
+Composition with components - Components Reusability and architecture same as in React
+
+9 - Template's in Vue Js
+State variable will be defined in data 
+v-once will be processing the change only ones 
+We can use multiple directives in a single component 
+
+10 - Classes and Style binding
+All examples are in StyleAndClassComponent Component
+
+11 - Data Binding (Important) - Whenever data is changed, it is reflected automatically by the elements bound to the data. 
+v-model is a directive that creates a two-way data binding between a value in our template and a value in our data properties. 
+
+12 - Props
+v-bind is also used to pass the property define inside the data function as a props
+Props in Vue in similar to React with some mino  r difference
+examples are there in PropsComponentFirst and Second one
+
+13 - Child to Parents Props
+Somewhat similar to react (uses a callback)
+
+14 - Life cycle Methods (Hooks) - Important
+We don't need to call the lifecycle methods for example created will automatically be called when a component is created 
+
+Vue Lifecycle Methods -
+1. beforeCreate
+2. Created
+3. beforeMount 
+4. Mount 
+5. beforeUpdate
+6. Update 
+7. beforeDestroy 
+8. Destroy - Removed from DOM
+
+15 - Basic Form Development - Checkboxes and Radio - using v-model 
+
+16 - Basic Form Development - Getting input field data using onClick handler
+
+17 - Basic Form Development - Validation - Basic Js Validation
+
+18 - Filters in Vue js -  It is defined globally. 
+Pipe operator is involved in using the filter
+Define it in main.js file and then use this utitlity function in any component
+Example in UsingFilterComponentExample.vue Component
+
+19 - Lifecycle Method - beforeCreate and created in Vue Js
+As the name suggest beforeCreate is called before the component is created 
+created is called after the component is created - Data binding stuff happens inside created
+
+20 - Lifecycle Method -  beforeMount and Mounted in Vue Js
+beforeMount is called just before the component is about to render / before the component HTML is about to render 
+Mount is called just after the component is rendered
+this.$el = represents the HTML of the component
+In beforeMount you won't be accessing any HTML Element  
+
+21 - Lifecycle Method - beforeDestroy and Destroy in Vue Js
+beforeDestroy is called just before a component is about to be removed from the DOM or UI
+Destroy is called just after the component is removed from the DOM or UI 
+
+22 - Fetching and using data from the API | Axios
+Package - axios and vue-axios are widely used for this purpose
+
+23 - Vue bootstrap - https://bootstrap-vue.org/ - Superb for Styling with Vue Js
+Install Vue bootstrap - 
+1. Vue CLI - vue add bootstrap-vue - Setup is already done by Vue CLI - In case of error Try without allowing permission for SCSS/SASS
+2. npm js - npm install bootstrap-vue - Setup is not done - Manual setup might needs to be done
+
+24 - Post API with form data
+
+25 - Deleting a record / data with API
+
+26 - Basic Routing Implementation 
+Package used - vue-router
+Step - 
+create router index file with all the routes and then use it in main.js file.
+router-view html tag now should be used in the App.js file template 
+There is some versioning issue with Vue Router - Vue 2 is compatible with vue-router - 3.5.4 version
+Complete Implementation - NavLinkComponent use here 
+
+27 - Vue Routing Implementation - Continue 
+
+28 - Vue Routing - Passing data in Routing params - easy check video for Implementation
+
+29 - 404 Page not found Implementation using Vue Router - Simple use of * in routes array 
+Always place the * path object at the end of the array 
+ 
+30 - Dynamic Components
+Component rendering on specific event based is the concept of Dynamic Component
+Most useful when render component based on a Condition
+Complete Implementation in DynamicComponent.vue 
+
+
+Watcher - Watch the value of the property and with the defined function inside watch you can perform action onchange
+
+27 - Computed Properties in Vue Js
+Same as Data or methods but is used for complex operations - It have better performance and efficiency - It internally uses caching
