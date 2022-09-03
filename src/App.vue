@@ -13,8 +13,9 @@
     <!-- <ComputedPropertyExampleComponent /> -->
     <!-- <UsingFilterComponentExample /> -->
     <!-- <VueBootstrapExampleComponent /> -->
-    <NavLinkComponent />
-    <router-view></router-view>
+    <!-- <NavLinkComponent />
+    <router-view></router-view> -->
+    <SlotExampleComponent />
   </div>
 </template>
 
@@ -31,7 +32,8 @@
 // import ComputedPropertyExampleComponent from "./components/ComputedPropertyExampleComponent.vue";
 // import UsingFilterComponentExample from "./components/UsingFilterComponentExample.vue";
 // import VueBootstrapExampleComponent from "./components/VueBootstrapExampleComponent.vue";
-import NavLinkComponent from "./components/NavLinkComponent.vue";
+// import NavLinkComponent from "./components/NavLinkComponent.vue";
+import SlotExampleComponent from "./components/SlotExampleComponent.vue";
 export default {
   name: "App",
   components: {
@@ -47,7 +49,8 @@ export default {
     // ComputedPropertyExampleComponent,
     // UsingFilterComponentExample,
     // VueBootstrapExampleComponent,
-    NavLinkComponent,
+    // NavLinkComponent,
+    SlotExampleComponent,
   },
 };
 </script>

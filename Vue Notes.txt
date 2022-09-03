@@ -1,6 +1,6 @@
 1 - 
 Vue Js - 
-Framework
+Javascript Frontend Development Framework
 Light Weight 
 High Performance
 Open Source 
@@ -25,8 +25,8 @@ Directives are instruction for VueJS to do things in a certain way. We have alre
 Condition rendering with data object
 
 7 - 
-There is no difference between vue-on:click="()=>doSomething()" and @click="()=>doSomething()"
-@ is a shorthand for vue-on
+There is no difference between v-on:click="()=>doSomething()" and @click="()=>doSomething()"
+@ is a shorthand for v-on
 For rendering list of item we use .map in React, here we use v-for directive
 
 8 - 
@@ -123,6 +123,10 @@ Complete Implementation in DynamicComponent.vue
 
 
 Watcher - Watch the value of the property and with the defined function inside watch you can perform action onchange
+
+Slot - Passing down the HTML from Parent to child component is done with the help of slots. They are special HTML tag that are used in child component
+Example use case of the Slot is the Common FormHelper Component in which text may vary depending upon the parent component
+
 
 27 - Computed Properties in Vue Js
 Same as Data or methods but is used for complex operations - It have better performance and efficiency - It internally uses caching
