@@ -11,7 +11,7 @@ export default {
     name: "UsingFilterComponentExample",
     data(){
         return {
-            name: "abhishek verma"
+            name: "Abhishek Verma"
         }
     }
 }
